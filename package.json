@@ -1,0 +1,16 @@
+{
+  "name": "ultra-votifier",
+  "version": "1.0.0",
+  "description": "Backend votifier system made in Node.JS! Compatible with Votifier V2",
+  "main": "src/votifier.js",
+  "scripts": {
+    "test": "node test/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "net": "^1.0.2"
+  }
+}
