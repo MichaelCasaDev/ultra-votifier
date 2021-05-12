@@ -17,6 +17,6 @@ votifier(options, (err) => { // Votifier function
     if (err) { // Check if there's error and log it
         console.log("🚨 Error from send vote function");
     } else {
-        console.log("📡 Vote sent to the server  [ " + "MichaelDevC" + " ]");
+        console.log("📡 Vote sent to the server  [ " + options.vote.username + " ]");
     };
 });
