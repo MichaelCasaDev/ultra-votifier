@@ -7,7 +7,7 @@ cd node_modules && git clone https://github.com/MichaelDevC/ultra-votifier.git
 ```
 
 ```js
-const votifier = require('../src/votifier.js');
+const votifier = require('ultra-votifier');
 
 
 var options = { // Parse all parameters to send the vote...
